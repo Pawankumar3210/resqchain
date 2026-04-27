@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
-const API = "resqchain-production.up.railway.app";
+const API = "https://resqchain-production.up.railway.app";
 const LOCATIONS = ["Warehouse","Zone_A","Zone_B","Zone_C","Zone_D","Hospital","Market"];
 
 function ArcReactor({ size = 120, alert = false }) {
