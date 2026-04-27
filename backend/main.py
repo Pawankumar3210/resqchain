@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routes import delivery, routing, disruption, ai
+from routes import delivery, routing, disruption, ai
 
 app = FastAPI(title="ResQChain API")
 
